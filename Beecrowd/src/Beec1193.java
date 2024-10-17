@@ -5,7 +5,7 @@ public class Beec1193 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        sc.nextLine();  // Пропустить символ новой строки после числа
+        sc.nextLine();  
 
         for (int i = 1; i <= N; i++) {
             String input = sc.nextLine();
