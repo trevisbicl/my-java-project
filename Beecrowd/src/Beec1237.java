@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Beec1237 {
-    public static int IloveSpaggety(String s1, String s2) {
+    public static int CopiRity(String s1, String s2) {
         int m = s1.length(), n = s2.length();
         int[][] dp = new int[m + 1][n + 1];
         int longest = 0;
@@ -23,7 +23,7 @@ public class Beec1237 {
             String s1 = scanner.nextLine().trim();
             if (!scanner.hasNextLine()) break;
             String s2 = scanner.nextLine().trim();
-            System.out.println(IloveSpaggety(s1, s2));
+            System.out.println(CopiRity(s1, s2));
         }
         scanner.close();
     }
