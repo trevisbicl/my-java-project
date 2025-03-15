@@ -71,7 +71,7 @@ class StudentManagementSystem {
     }
 }
 
-class student {
+public class StudentApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         StudentManagementSystem sms = new StudentManagementSystem();
@@ -84,13 +84,13 @@ class student {
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine();  // consume the newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
                     System.out.print("Enter student ID: ");
                     int id = scanner.nextInt();
-                    scanner.nextLine();  // consume the newline
+                    scanner.nextLine();
                     System.out.print("Enter student name: ");
                     String name = scanner.nextLine();
                     System.out.print("Enter student age: ");
@@ -112,6 +112,6 @@ class student {
                 default:
                     System.out.println("Invalid choice. Please try again.");
             }
-        }
-    }
+ }
+}
 }
